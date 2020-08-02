@@ -136,9 +136,9 @@ namespace Dajarep.Services
                     {
                         var w = new Word()
                         {
-                            Str = token.OriginalForm,
+                            OriginalText = token.OriginalForm,
                             Kana = token.Reading,
-                            WType = token.PartsOfSpeech
+                            WordType = token.PartsOfSpeech
                         };
                         words.Add(w);
                         kana += token.Reading;
@@ -147,7 +147,7 @@ namespace Dajarep.Services
                 }
                 sentences.Add(new Sentence()
                 {
-                    Str = senstr[i],
+                    OriginalText = senstr[i],
                     Words = words,
                     Kana = kana,
                     Yomi = yomi
@@ -169,9 +169,9 @@ namespace Dajarep.Services
             {
                 var word = words[i];
 
-                if (word.WType == "名詞" && word.Kana.Length > 1)
+                if (word.WordType == "名詞" && word.Kana.Length > 1)
                 {
-                    var hitStr = Regex.Matches( sen.Str, word.Str);
+                    var hitStr = Regex.Matches( sen.OriginalText, word.OriginalText);
                     var hitKana1 = Regex.Matches( sen.Kana, fixWord(word.Kana));
                     var hitKana2 = Regex.Matches( fixSentence(sen.Kana), fixWord(word.Kana));
                     var hitKana3 = Regex.Matches(sen.Yomi, fixWord(word.Kana));
@@ -219,7 +219,7 @@ namespace Dajarep.Services
             for (var i = 0; i < sentences.Count; i++) {
                 if (isDajare(sentences[i])) 
                 {
-                    dajares.Add(sentences[i].Str);
+                    dajares.Add(sentences[i].OriginalText);
                 }
             }
             return dajares;

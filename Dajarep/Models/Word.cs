@@ -2,8 +2,8 @@
 {
     class Word
     {
-        public string Str { get; set; }
+        public string OriginalText { get; set; }
         public string Kana { get; set; }
-        public string WType { get; set; }
+        public string WordType { get; set; }
     }
 }
