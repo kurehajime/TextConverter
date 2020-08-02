@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\dagao\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\dagao\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Dajarep</AssemblyName>
+  </PropertyGroup>
+	<PropertyGroup>
+	  <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	  <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+	  <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+	</PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\git\TextConverter\TextConverter\bin\Debug\netcoreapp3.0\Plugins</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>C:\git\TextConverter\TextConverter\bin\Release\netcoreapp3.0\Plugins</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="LibNMeCab.IpaDicBin" Version="0.10.0-RC1" />
+    <PackageReference Include="Prism.Wpf" Version="7.2.0.1422" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TextConverter.Lib\TextConverter.Lib.csproj" />
+  </ItemGroup>
+</Project>

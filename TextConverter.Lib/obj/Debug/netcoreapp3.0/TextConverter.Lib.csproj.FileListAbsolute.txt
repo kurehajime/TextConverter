@@ -1,0 +1,9 @@
+C:\git\TextConverter\TextConverter.Lib\bin\Debug\netcoreapp3.0\TextConverter.Lib.deps.json
+C:\git\TextConverter\TextConverter.Lib\bin\Debug\netcoreapp3.0\TextConverter.Lib.dll
+C:\git\TextConverter\TextConverter.Lib\bin\Debug\netcoreapp3.0\TextConverter.Lib.pdb
+C:\git\TextConverter\TextConverter.Lib\obj\Debug\netcoreapp3.0\TextConverter.Lib.AssemblyInfoInputs.cache
+C:\git\TextConverter\TextConverter.Lib\obj\Debug\netcoreapp3.0\TextConverter.Lib.AssemblyInfo.cs
+C:\git\TextConverter\TextConverter.Lib\obj\Debug\netcoreapp3.0\TextConverter.Lib.csproj.CoreCompileInputs.cache
+C:\git\TextConverter\TextConverter.Lib\obj\Debug\netcoreapp3.0\TextConverter.Lib.dll
+C:\git\TextConverter\TextConverter.Lib\obj\Debug\netcoreapp3.0\TextConverter.Lib.pdb
+C:\git\TextConverter\TextConverter.Lib\obj\Debug\netcoreapp3.0\TextConverter.Lib.csprojAssemblyReference.cache

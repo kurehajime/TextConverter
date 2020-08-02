@@ -1,0 +1,14 @@
+C:\git\TextConverter\TextConverter\bin\Debug\netcoreapp3.0\Plugins\IpaDic\char.bin
+C:\git\TextConverter\TextConverter\bin\Debug\netcoreapp3.0\Plugins\IpaDic\matrix.bin
+C:\git\TextConverter\TextConverter\bin\Debug\netcoreapp3.0\Plugins\IpaDic\sys.dic
+C:\git\TextConverter\TextConverter\bin\Debug\netcoreapp3.0\Plugins\IpaDic\unk.dic
+C:\git\TextConverter\TextConverter\bin\Debug\netcoreapp3.0\Plugins\Dajarep.deps.json
+C:\git\TextConverter\TextConverter\bin\Debug\netcoreapp3.0\Plugins\Dajarep.dll
+C:\git\TextConverter\TextConverter\bin\Debug\netcoreapp3.0\Plugins\Dajarep.pdb
+C:\git\TextConverter\Dajarep\obj\Debug\Dajarep.AssemblyInfoInputs.cache
+C:\git\TextConverter\Dajarep\obj\Debug\Dajarep.AssemblyInfo.cs
+C:\git\TextConverter\Dajarep\obj\Debug\Dajarep.csproj.CopyComplete
+C:\git\TextConverter\Dajarep\obj\Debug\Dajarep.dll
+C:\git\TextConverter\Dajarep\obj\Debug\Dajarep.pdb
+C:\git\TextConverter\Dajarep\obj\Debug\Dajarep.csprojAssemblyReference.cache
+C:\git\TextConverter\Dajarep\obj\Debug\Dajarep.csproj.CoreCompileInputs.cache

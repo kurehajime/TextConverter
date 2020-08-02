@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "XIDVP7SARwKoZQhDYY77XjWRnn1zgc389V8xfkZg1tvEVv8g5oMUhJjXOCYK6MMM6Be7PNmOEvuj293lqcHJoQ==",
+  "success": true,
+  "projectFilePath": "C:\\git\\TextConverter\\Dajarep\\Dajarep.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dagao\\.nuget\\packages\\commonservicelocator\\2.0.4\\commonservicelocator.2.0.4.nupkg.sha512",
+    "C:\\Users\\dagao\\.nuget\\packages\\libnmecab\\0.10.0-rc1\\libnmecab.0.10.0-rc1.nupkg.sha512",
+    "C:\\Users\\dagao\\.nuget\\packages\\libnmecab.ipadicbin\\0.10.0-rc1\\libnmecab.ipadicbin.0.10.0-rc1.nupkg.sha512",
+    "C:\\Users\\dagao\\.nuget\\packages\\prism.core\\7.2.0.1422\\prism.core.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\dagao\\.nuget\\packages\\prism.wpf\\7.2.0.1422\\prism.wpf.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\dagao\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\dagao\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\dagao\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
