@@ -1,6 +1,7 @@
 ﻿using Dajarep.Models;
 using Microsoft.VisualBasic;
 using NMeCab;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -9,13 +10,13 @@ using TextConverter.Lib.Interfaces;
 
 namespace Dajarep.Services
 {
-    class DajarepConverter : ITextConverterService, ISampleTextService
+    public class DajarepConverter : ITextConverterService, ISampleTextService
     {
         #region ITextConverterService
 
         public List<string> Convert(List<string> inputString)
         {
-            return Dajarep(Strings.Join(inputString.ToArray(), "\n"));
+            return Dajarep(Strings.Join(inputString.ToArray(), Environment.NewLine));
         }
 
         public string Name()
@@ -45,7 +46,7 @@ namespace Dajarep.Services
 マイケル・ジョーダンが冗談を言った
 知事が縮む
 鶏には取り憑かない
-破壊についての和解".Split("\n").ToList();
+破壊についての和解".Split(Environment.NewLine).ToList();
         }
 
         #endregion
@@ -219,7 +220,7 @@ namespace Dajarep.Services
             for (var i = 0; i < sentences.Count; i++) {
                 if (isDajare(sentences[i])) 
                 {
-                    dajares.Add(sentences[i].OriginalText);
+                    dajares.Add(sentences[i].OriginalText.Trim());
                 }
             }
             return dajares;

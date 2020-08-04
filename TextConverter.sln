@@ -13,7 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextConverter.Lib", "TextCo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dajarep", "Dajarep\Dajarep.csproj", "{F27EC0E4-A86F-4F76-A470-C0D59335BC4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anony", "Anony\Anony.csproj", "{0CFD142B-9014-46F9-A074-FBE6AD71A17C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anony", "Anony\Anony.csproj", "{0CFD142B-9014-46F9-A074-FBE6AD71A17C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextConverter.Test", "TextConverter.Test\TextConverter.Test.csproj", "{95619830-D23A-45F2-8449-D8025CBFF4BA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0CFD142B-9014-46F9-A074-FBE6AD71A17C} = {0CFD142B-9014-46F9-A074-FBE6AD71A17C}
+		{F27EC0E4-A86F-4F76-A470-C0D59335BC4F} = {F27EC0E4-A86F-4F76-A470-C0D59335BC4F}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,10 @@ Global
 		{0CFD142B-9014-46F9-A074-FBE6AD71A17C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CFD142B-9014-46F9-A074-FBE6AD71A17C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CFD142B-9014-46F9-A074-FBE6AD71A17C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95619830-D23A-45F2-8449-D8025CBFF4BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95619830-D23A-45F2-8449-D8025CBFF4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95619830-D23A-45F2-8449-D8025CBFF4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95619830-D23A-45F2-8449-D8025CBFF4BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

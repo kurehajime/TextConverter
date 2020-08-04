@@ -1,4 +1,5 @@
 ﻿using NMeCab;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,13 +8,13 @@ using TextConverter.Lib.Interfaces;
 
 namespace Anony.Services
 {
-    class AnonyConverter : ITextConverterService, ISampleTextService
+    public class AnonyConverter : ITextConverterService, ISampleTextService
     {
         #region ITextConverterService
 
         public List<string> Convert(List<string> inputString)
         {
-            return this.Anony(string.Join("\n", inputString)).Split("\n").ToList();
+            return inputString.Select(x => this.Anony(x)).ToList();
         }
 
         public string Name()
@@ -30,7 +31,7 @@ namespace Anony.Services
             return @"筒井康隆は、日本の小説家・劇作家・俳優である。
 ホリプロ所属。身長166cm。小松左京、星新一と並んで「SF御三家」とも称される。
 パロディやスラップスティックな笑いを得意とし、初期にはナンセンスなSF作品を多数発表。
-1970年代よりメタフィクションの手法を用いた前衛的な作品が増え、エンターテインメントや純文学といった境界を越える実験作を多数発表している。".Split("\n").ToList();
+1970年代よりメタフィクションの手法を用いた前衛的な作品が増え、エンターテインメントや純文学といった境界を越える実験作を多数発表している。".Split(Environment.NewLine).ToList();
         }
 
         #endregion

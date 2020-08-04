@@ -6,7 +6,7 @@ using TextConverter.Lib.Interfaces;
 
 namespace TextConverter.Services
 {
-    class DefaultConverter : ITextConverterService, ISampleTextService
+    public class DefaultConverter : ITextConverterService, ISampleTextService
     {
 
         public string Name()
@@ -25,7 +25,7 @@ namespace TextConverter.Services
             return $@"色は匂へど　散りぬるを
 我が世誰そ　常ならむ
 有為の奥山　今日越えて
-浅き夢見じ　酔ひもせず".Split("\n").ToList<string>();
+浅き夢見じ　酔ひもせず".Split(Environment.NewLine).ToList<string>();
         }
     }
 }
