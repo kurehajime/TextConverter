@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Anony\Anony.csproj" />
     <ProjectReference Include="..\Dajarep\Dajarep.csproj" />
+    <ProjectReference Include="..\Markov\Markov.csproj" />
   </ItemGroup>
 
 </Project>
