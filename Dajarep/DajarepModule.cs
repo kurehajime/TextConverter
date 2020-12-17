@@ -5,7 +5,7 @@ using TextConverter.Lib.Interfaces;
 
 namespace Dajarep
 {
-    public class DajarepModule : IModule
+    public sealed class DajarepModule : IModule
     {
         public void OnInitialized(IContainerProvider containerProvider)
         {

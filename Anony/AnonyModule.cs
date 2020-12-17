@@ -5,7 +5,7 @@ using TextConverter.Lib.Interfaces;
 
 namespace Anony
 {
-    public class AnonyModule : IModule
+    public sealed class AnonyModule : IModule
     {
         public void OnInitialized(IContainerProvider containerProvider)
         {

@@ -5,7 +5,7 @@ using TextConverter.Lib.Interfaces;
 
 namespace Markov
 {
-    public class MarkovModule : IModule
+    public sealed class MarkovModule : IModule
     {
         public void OnInitialized(IContainerProvider containerProvider)
         {
