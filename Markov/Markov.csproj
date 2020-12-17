@@ -10,10 +10,10 @@
 	  <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-	  <OutputPath>C:\git\TextConverter\TextConverter\bin\Debug\netcoreapp3.0\Plugins</OutputPath>
+	  <OutputPath>..\TextConverter\bin\Debug\netcoreapp3.0\Plugins</OutputPath>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-	  <OutputPath>C:\git\TextConverter\TextConverter\bin\Release\netcoreapp3.0\Plugins</OutputPath>
+	  <OutputPath>..\TextConverter\bin\Release\netcoreapp3.0\Plugins</OutputPath>
 	</PropertyGroup>
   <ItemGroup>
     <PackageReference Include="LibNMeCab.IpaDicBin" Version="0.10.0-RC1" />
